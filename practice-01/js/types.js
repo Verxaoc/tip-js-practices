@@ -1,0 +1,11 @@
+"use strict";
+console.log('"8" + 2 =', "8" + 2, '| тип:', typeof ("8" + 2));
+console.log('"8" - 2 =', "8" - 2, '| тип:', typeof ("8" - 2));
+console.log('Number("8") + 2 =', Number("8") + 2, '| тип:', typeof ("8" - 2));
+console.log('""12" > "3" =', "12" > "3", '| тип:', typeof ("8" - 2));
+console.log('12 === "12" =', 12 === "12", '| тип:', typeof ("8" - 2));
+console.log('Number("") =', Number(""), '| тип:', typeof ("8" - 2));
+console.log('Number("text") =', Number("text"), '| тип:', typeof ("8" - 2));
+console.log('Boolean("false") =', Boolean("false"), '| тип:', typeof ("8" - 2));
+console.log('typeof null =', typeof null, '| тип:', typeof ("8" - 2));
+console.log('typeof NaN =', typeof NaN, '| тип:', typeof ("8" - 2));
